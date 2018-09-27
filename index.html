@@ -4,24 +4,23 @@
     <head>
         <title>Plant It Trivia</title>
 
-        <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
         <script type="text/javascript" src="assets/javascript/app.js"></script>
         <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+       
     </head>
 
 <body>
     <div class="banner">
         Plants Are Awesome!
     </div>
-    
+   
 <div class="container" >
-
     <!--Access the time variable-->
     
-    <h2>Time Remaining: <div id="time"></div></h2>
+    <h2>Time Remaining: <div id="time">05:00</div></h2>
 
     <p>Fact or Fiction?
         <br> 
@@ -31,44 +30,33 @@
 </div>
 
 
-<div class="container">
+<div class="container" form actiion = "/action_page.php">
     
     <p>1. The Latin word for Plants is Plantae.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group1" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
-
+    
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group1" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
 
-    <!-- Material inline 1 -->
-<div class="form-check form-check-inline">
-        <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
-        <label class="form-check-label" for="materialInline1">True</label>
-      </div>
-      
-      <!-- Material inline 2 -->
-      <div class="form-check form-check-inline">
-        <input type="radio" class="form-check-input" id="materialInline2" name="inlineMaterialRadiosExample">
-        <label class="form-check-label" for="materialInline2">False</label>
-      </div>
       
     <p>2. All plants have roots.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio3" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group2" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
-
+    
     <label class="custom-control custom-radio">
-        <input id="radio4" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group2" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -76,13 +64,13 @@
     <p>3. Torenia, the wishbone flower, is a sunlight loving summer flower.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio5" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group3" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group3" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -90,13 +78,13 @@
     <p>4. Bamboo is the fastest growing woody plant in the world.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group4" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group4" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -105,13 +93,13 @@
     <p>5. Saffron, Crocus sativus, is often used in Mediterranean cuisine.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group5" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group5" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -119,13 +107,13 @@
     <p>6. The Avocado Plant is a vegetable.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group6" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group6" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -133,13 +121,13 @@
     <p>7. The Gingko Tree, Ginkgo biloba, is one of the oldest living tree species.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group7" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group7" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -147,13 +135,13 @@
     <p>8. Aloe Vera is a native plant originating in the deserts of Australia.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group8" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group8" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">False</span>
     </label>
@@ -161,28 +149,28 @@
     <p>9. Maple trees, Acer, are usually found in the northern hemisphere.</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group9" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">True</span>
+        <span class="custom-control-description" value="True">True</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group9" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">False</span>
+        <span class="custom-control-description" value="False">False</span>
     </label>
 
 
-    <p>10. Bonus Question -- Garlic mustard is a member of which family: Garlic or Mustard?</p>
+    <p>10. Garlic mustard is a member of which family: Garlic or Mustard?</p>
 
     <label class="custom-control custom-radio">
-        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <input id="radio1" name="group10" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">Garlic</span>
     </label>
     
     <label class="custom-control custom-radio">
-        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+        <input id="radio2" name="group10" type="radio" class="custom-control-input">
         <span class="custom-control-indicator"></span>
         <span class="custom-control-description">Mustard</span>
     </label>
@@ -190,13 +178,18 @@
 </div>
 
 <div class="container">
-    <p>
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <p id="questions">
+    <input class="btn btn-primary" type="submit" value="Submit" id="submit">
     <p>
         <!--Access the score variable-->
     <h2>Total Score: <div id="score">id = "score"</div></h2>
 
 </div>
+
+<blockquote class="trello-board-compact">
+        <a href="https://trello.com/b/CjeEipQH/project-3-milestones">Trello Board</a>
+      </blockquote>
+      <script src="https://p.trellocdn.com/embed.min.js"></script>
 </body>
     
 </html>
