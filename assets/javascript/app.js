@@ -34,24 +34,24 @@ $(document).ready(function(){
         //write a check answers function      
     });
 
-//     //once you click submit the total score shows
-//     var totalScore = 0;
-//     $("#score").text(totalScore);
-// //check answers after submit 
+    //once you click submit the total score shows
+    var totalScore = 0;
+    $("#score").text(totalScore);
+//check answers after submit 
 
-//     if ($("radio1").lickc){
-//             console.log("radio1 clicked");
-//     } else {
-//         console.log("...");
-//     }
+    if ($("radio1").lickc){
+            console.log("radio1 clicked");
+    } else {
+        console.log("...");
+    }
 
 
 
-    // var form = document.getElementById("questions");
+    var form = document.getElementById("questions");
 
-    // document.getElementById("questions").addEventListener("click", function () {
-    //     form.submit();
-    // });
+    document.getElementById("questions").addEventListener("click", function () {
+        form.submit();
+    });
 
 
     });
