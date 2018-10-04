@@ -1,4 +1,5 @@
 console.log("The js file is linked!");
+var userAnswer = [];
 
 $(document).ready(function(){
 
@@ -31,6 +32,8 @@ $(document).ready(function(){
 
     $("#submit").click(function(){
         console.log("Submit button is clicked");
+        
+        console.log(userAnswer);
         //write a check answers function      
     });
 
@@ -38,20 +41,15 @@ $(document).ready(function(){
     var totalScore = 0;
     $("#score").text(totalScore);
 //check answers after submit 
+$(function() {
+   console.log(sessionStorage.getItem('option'));
+    $('[type=radio]').click(function() {
+             console.log(this.value);           sessionStorage.setItem('option',this.value);
+        userAnswer.push(this.value);
+   
+            });    
 
-    if ($("radio1").lickc){
-            console.log("radio1 clicked");
-    } else {
-        console.log("...");
-    }
-
-
-
-    var form = document.getElementById("questions");
-
-    document.getElementById("questions").addEventListener("click", function () {
-        form.submit();
-    });
+});
 
 
     });
