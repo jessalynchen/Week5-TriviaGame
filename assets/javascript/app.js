@@ -34,7 +34,9 @@ $(document).ready(function(){
         console.log("Submit button is clicked");
         
         console.log(userAnswer);
-        //write a check answers function      
+        $("#score").text(totalScore);
+        //write a check answers function 
+
     });
 
     //once you click submit the total score shows
@@ -46,8 +48,10 @@ $(function() {
     $('[type=radio]').click(function() {
              console.log(this.value);           sessionStorage.setItem('option',this.value);
         userAnswer.push(this.value);
-   
-            });    
+        if (this.value === "correct"){
+            totalScore +=1;
+        } 
+        });    
 
 });
 
