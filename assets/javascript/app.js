@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 
     if (timer === 0){
-        $("#score").text(totalScore);
+         $("#score").text(totalScore);
     }
     
 
