@@ -8,7 +8,7 @@ In this assignment, You'll create a Trivia game using JavaScript for the logic a
 About
 
 This is a plant trivia quiz. 
-<img src="../assets/images/Screenshot.PNG">
+<img src="../assets/images/Screenshot.PNG" height="500px" width= "800px">
 
 Instructions (Simple Assignment): 
 Before You Begin
