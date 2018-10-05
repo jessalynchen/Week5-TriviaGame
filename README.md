@@ -5,6 +5,11 @@ Overview
 
 In this assignment, You'll create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
 
+Trivia Game
+
+In this trivia game are ten questions about plants. Choose the best answer and then click submit to calculate your total score. A correct answer will be given one point and an incorrect answer will not be marked. 
+![Image of Trivia Game](https://github.com/jessalynchen/Week5-TriviaGame/blob/master/assets/images/screencapture-game.PNG)
+
 Before You Begin
 
 Create a GitHub repo called TriviaGame, then clone the repo to your computer.
