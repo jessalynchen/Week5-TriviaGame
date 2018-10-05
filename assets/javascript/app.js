@@ -1,7 +1,11 @@
 console.log("The js file is linked!");
 var userAnswer = [];
 
+//once you click submit the total score shows
+var totalScore = 0;
+
 $(document).ready(function(){
+
 
     console.log("Page is ready");
     function startTimer(duration, display) {
@@ -32,21 +36,16 @@ $(document).ready(function(){
 
     $("#submit").click(function(){
         console.log("Submit button is clicked");
-        
         console.log(userAnswer);
         $("#score").text(totalScore);
         //write a check answers function 
 
     });
-
-    //once you click submit the total score shows
-    var totalScore = 0;
-    $("#score").text(totalScore);
+   
 //check answers after submit 
 $(function() {
-   console.log(sessionStorage.getItem('option'));
     $('[type=radio]').click(function() {
-             console.log(this.value);           sessionStorage.setItem('option',this.value);
+             console.log(this.value);           
         userAnswer.push(this.value);
         if (this.value === "correct"){
             totalScore +=1;
