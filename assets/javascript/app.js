@@ -30,7 +30,6 @@ function startTimer(duration, display) {
     
     //when a radio button is clicked, check if correct value
 $(function() {
-   console.log(sessionStorage.getItem('option'));
     $('[type=radio]').click(function() {
              console.log(this.value);  ;
             
