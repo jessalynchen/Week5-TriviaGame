@@ -45,6 +45,7 @@ $("#submit").click(function(){
     console.log("Submit button is clicked");   
     
     $("#score").text(totalScore);
+
     });
 
 });
