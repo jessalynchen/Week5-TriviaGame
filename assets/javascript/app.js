@@ -32,10 +32,7 @@ function startTimer(duration, display) {
 
 $(document).ready(function(){
 
-
-    if (timer === 0){
-         $("#score").text(totalScore);
-
+=======
 $(document).ready(function(){
 
     console.log("Page is ready");
@@ -54,6 +51,7 @@ $(document).ready(function(){
                 timer = duration;
             }
         }, 1000);
+>>>>>>> parent of 897c733... instructions
     }
     
 
@@ -62,7 +60,6 @@ $(document).ready(function(){
 
     $("#submit").click(function(){
         console.log("Submit button is clicked");
-        
         console.log(userAnswer);
         $("#score").text(totalScore);
         //write a check answers function 
@@ -84,6 +81,6 @@ $(function() {
         });    
 
 });
-}
+
 
     });
