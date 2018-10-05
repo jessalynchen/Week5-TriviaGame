@@ -11,6 +11,7 @@ window.onload = function () {
 
 
 console.log("Page is ready");
+//here is timer
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     setInterval(function () {
